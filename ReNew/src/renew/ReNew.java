@@ -20,7 +20,9 @@ public class ReNew{
     
     // This is the method for Subtraction
     
-    /*write your code here!*/
+    public void subtraction(){
+    
+    }
     
     
     
