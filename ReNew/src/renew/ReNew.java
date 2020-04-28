@@ -18,9 +18,19 @@ public class ReNew{
         System.out.println("The sum is: " + sum);
     }
     
-    // This is the method for Subtraction
-    
+    // This is the method for Subtraction, Code By: GAB
     public void subtraction(){
+        int num1Sub, num2Sub, diff;
+        
+        System.out.println("Enter 2 numbers to subtract");
+        System.out.print("First Number: ");
+        num1Sub = input.nextInt();
+        System.out.print("Second Number: ");
+        num2Sub = input.nextInt();
+        diff = num1Sub - num2Sub;
+        
+        System.out.println("The difference is: " + diff);
+    }
     
     }
     
@@ -41,5 +51,6 @@ public class ReNew{
     public static void main(String[]Args){
         ReNew object = new ReNew();
         object.addition(); //calling the method addition
+        object.subtraction(); //calling the method subtraction
     }
 }
