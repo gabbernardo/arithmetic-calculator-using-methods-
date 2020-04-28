@@ -32,7 +32,6 @@ public class ReNew{
         System.out.println("The difference is: " + diff);
     }
     
-    }
     
     
     
@@ -67,6 +66,6 @@ public class ReNew{
         ReNew object = new ReNew();
         object.addition(); //calling the method addition
         object.subtraction(); //calling the method subtraction
-        object.division(); //calling the method division
+        object.devision(); //calling the method devision
     }
 }
