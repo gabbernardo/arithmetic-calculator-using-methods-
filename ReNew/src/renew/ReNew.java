@@ -67,6 +67,6 @@ public class ReNew{
         ReNew object = new ReNew();
         object.addition(); //calling the method addition
         object.subtraction(); //calling the method subtraction
-        object.devision(); //calling the method devision
+        object.division(); //calling the method division
     }
 }
